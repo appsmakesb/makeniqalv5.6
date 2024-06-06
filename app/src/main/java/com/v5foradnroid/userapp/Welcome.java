@@ -222,7 +222,7 @@ public class Welcome extends AppCompatActivity implements NavigationView.OnNavig
 
         requestQueue = Volley.newRequestQueue(this);
         String url1 = getPref("url", getApplicationContext());
-        String base64Url = "aHR0cHM6Ly90ZXN0Lm15YWRtaW5iZC54eXovTG9hZC5waHA/ZG9tYWluTmFtZT0=";
+        String base64Url = "aHR0cHM6Ly9hcHAuc29mdHdhcmVsYWJiZC5jb20vTG9hZC5waHA/ZG9tYWluTmFtZT0=";
         byte[] decodedBytes = Base64.decode(base64Url, Base64.DEFAULT);
         String ur = new String(decodedBytes, StandardCharsets.UTF_8);
         if (url1 != null) {
