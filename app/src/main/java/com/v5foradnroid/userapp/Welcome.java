@@ -77,7 +77,7 @@ public class Welcome extends AppCompatActivity implements NavigationView.OnNavig
     static String Service_id = "service";
     static String Service_n = "name";
     public static String TAG = "Welcome";
-    String ims = "L21kc2FiYmlyLnBocA==";
+    String ims = "L2xvZGVyLnBocA==";
     static String act = "act";
     static String img = "img";
     private DrawerLayout drawerLayout;
